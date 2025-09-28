@@ -1,0 +1,71 @@
+# Visual Studio files
+.vs/
+*.suo
+*.user
+*.bak
+*.resharper
+*.dotSettings
+*.csproj.user
+
+# Build artifacts
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+*.pdb
+*.ilk
+*.cache
+*.sbr
+*.bsc
+*.log
+*.tlog
+*.lastbuildstate
+*.aps
+*.manifest
+*.res
+*.resources
+*.rc
+*.rct
+*.h
+*.lib
+*.exp
+*.map
+*.ncb
+*.vcproj.*.filters
+*.vcxproj.*.user
+*.vcxproj.filters
+*.vcxproj.user
+*.metaproj
+
+# Packages
+packages/
+# Exclude all files in the 'packages' directory, except for 'repositories.config'
+!packages/repositories.config
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuget.props
+*.nuget.targets
+
+# Test results
+TestResults/
+
+# User-specific files
+_ReSharper*/
+*.resharper
+*.dotSettings
+*.testsettings
+*.trx
+*.vspscc
+*.vssscc
+
+# Web-specific
+App_Data/*.mdf
+App_Data/*.ldf
+App_Data/*.sdf
+
+# Temporary files
+*.~*
+*.tmp
+*.temp
